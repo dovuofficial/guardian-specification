@@ -25,6 +25,7 @@ flowchart TD
     A[Discoveribility] --> B[Standard Registry]
     B --> C[Policy]
     C --> D[Schema Instance]
+    D --> E[Dynamic Topic]
 ```
 
 ## The Discoverability Topic
@@ -72,3 +73,9 @@ This topic: https://hashscan.io/mainnet/topic/0.0.4314639?p=39&k=1702645124.9261
   "rationale": "1702644448.523506003"
 }
 ```
+
+In this topic, all of these schema data instances would be pushed.
+
+## Dynamic Topics
+
+This is a work in progress.
